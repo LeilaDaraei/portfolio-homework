@@ -9,6 +9,10 @@ body {
 }
 .logo {
   max-height: 40px;
+  background: #554dec;
+  color: var(--secondary-color);
+  padding: 8px;
+  border-radius: 50%;
 }
 nav {
   padding: 20px 0;
