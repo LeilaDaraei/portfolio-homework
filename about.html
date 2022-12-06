@@ -37,23 +37,29 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Home page">
           <img
             src="pictures/logo-large.png"
-            alt="logo"
+            alt="Patricia's logo"
             class="logo d-none d-md-block"
           />
           <img
             src="pictures/logo-small.jpeg"
-            alt="logo"
+            alt="Patricia's logo"
             class="logo d-block d-md-none"
           />
         </a>
         <ul>
-          <li><a class="active" href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/" title="Home page">Home</a></li>
+          <li>
+            <a href="/about.html" title="About Patricia" class="active"
+              >About</a
+            >
+          </li>
+          <li><a href="/work.html" title="Patricia's work">Work</a></li>
+          <li>
+            <a href="/contact.html" title="Contact Patricia">Contact</a>
+          </li>
         </ul>
       </nav>
     </div>
@@ -90,7 +96,9 @@
               <p class="text-muted">Let's work together</p>
             </div>
             <div>
-              <a href="" class="btn btn-branding mt-3">Contact me</a>
+              <a href="/contact.html" class="btn btn-branding mt-3"
+                >Contact me</a
+              >
             </div>
           </div>
           <div class="d-flex justify-content-center mb-5">
@@ -99,16 +107,37 @@
             </a>
           </div>
           <div class="social-links d-flex justify-content-center">
-            <a href="https//www.instagram.com/leila">
+            <a
+              href="https//www.instagram.com/leila"
+              target="_blank"
+              title="Instagram Profile"
+            >
               <i class="fa-brands fa-instagram"></i
             ></a>
-            <a href="https//www.github.com/leila">
+            <a
+              href="https//www.github.com/leila"
+              target="_blank"
+              title="github Profile"
+            >
               <i class="fa-brands fa-github"></i
             ></a>
-            <a href="https//www.twitter.com/leila">
+            <a
+              href="https//www.twitter.com/leila"
+              target="_blank"
+              title="Twitter Profile"
+            >
               <i class="fa-brands fa-twitter"></i
             ></a>
           </div>
+          <p class="text-center mt-5">
+            ✌️This project was coded by Leila Daraei, and it is
+            <a
+              href="https://github.com/LeilaDaraei/portfolio-homework"
+              target="_blank"
+              class="git-rep"
+              >open-sourced</a
+            >
+          </p>
         </footer>
       </div>
     </div>
