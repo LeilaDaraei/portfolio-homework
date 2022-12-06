@@ -12,7 +12,7 @@ body {
   background: #554dec;
   color: var(--secondary-color);
   padding: 8px;
-  border-radius: 50%;
+  border-radius: 4px;
 }
 nav {
   padding: 20px 0;
