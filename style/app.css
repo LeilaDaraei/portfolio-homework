@@ -13,6 +13,17 @@ body {
 nav {
   padding: 20px 0;
 }
+nav a {
+  color: #272142;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: var(--default-font-family);
+  transition: all 100ms ease-in-out;
+}
+nav .active,
+nav a:hover {
+  color: var(--branding-color);
+}
 nav ul {
   margin: 0;
   padding: 0;
@@ -132,4 +143,8 @@ p {
     padding: 0;
     text-align: center;
   }
+  nav a {
+    font-size: 12px;
+  }
+  
 }
