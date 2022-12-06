@@ -124,7 +124,7 @@ p {
   font-size: 14px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 44px;
     line-height: 2;
@@ -146,5 +146,4 @@ p {
   nav a {
     font-size: 12px;
   }
-  
 }
